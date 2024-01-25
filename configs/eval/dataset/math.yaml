@@ -1,0 +1,7 @@
+name: math
+max_new_tokens: 400
+metric: math_equiv
+stop_tokens: ["\n\n"]
+prefix_sequence: "Question: "
+suffix_sequence: "\nAnswer: "
+separator_sequence: "\n\n"

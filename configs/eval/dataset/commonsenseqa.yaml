@@ -1,0 +1,7 @@
+name: commonsenseqa
+max_new_tokens: 1
+metric: mc_match
+stop_tokens: ["\n\n"]
+prefix_sequence: "Question: "
+suffix_sequence: "\nAnswer:"
+separator_sequence: "\n\n"

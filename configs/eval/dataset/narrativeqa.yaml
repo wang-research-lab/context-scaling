@@ -1,0 +1,8 @@
+name: narrativeqa
+max_new_tokens: 20 # avg = 9.05
+metric: f1_score
+stop_tokens: ["\n\n", "Context: "]
+prefix_sequence: ""
+suffix_sequence: ""
+separator_sequence: "\n\n"
+skip_validation: true
